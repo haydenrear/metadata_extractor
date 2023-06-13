@@ -1,0 +1,21 @@
+kafka_brokers: "localhost:9092"
+factories:
+  test:
+    - 'src.inject.injection_modules.MetadataExtractorModules'
+  prod:
+    - 'src.inject.injection_modules.MetadataExtractorModules'
+
+indices: 'spam_classifier/resources/indices'
+unzipped: 'work/unzipped'
+zipped: 'work/unzipped'
+read_mem_dir: 'work/unzipped_index_mem'
+spam_classification_threshold: 0.3
+classifiers:
+#  - 'src.financial_classifier.financial_news_classifier.FinanceClassifier(0.34)' <- with classification threshold.
+# can take any classifier that implements StringClassifier
+  - 'src.financial_classifier.financial_news_classifier.FinanceClassifier()'
+  - 'src.news_classifier.news_classifier.BbcNewsClassifier()'
+  - 'src.news_classifier.news_classifier.NewsCategoryClassifier()'
+  - 'src.topic_classifier.topic_classifiers.WebSiteClassifier()'
+  - 'src.topic_classifier.topic_classifiers.TopicClassification()'
+  - 'src.topic_classifier.topic_classifiers.ArkViClassifier()'
