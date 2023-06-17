@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test_resources" type="java-test-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (venv)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="phx" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

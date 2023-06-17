@@ -1,0 +1,46 @@
+{
+  "className": "com.hayden.shared.models.reflectable.ReflectableComponent",
+  "data": {
+    "WebData": {
+      "className": "com.hayden.shared.models.reflectable.ReflectableWrapper",
+      "inner": {
+        "className": "com.hayden.reflectable.media.MediaData",
+        "clzz": "com.hayden.asset.models.asset.MultiModalMediaFeed",
+        "symbol": "https://google.com",
+        "enumClzz": "com.hayden.shared.models.data.WebData",
+        "reflectableClzz": "com.hayden.reflectable.media.MediaData$WebMediaDataIndiv",
+        "uniqueId": "https://google.com",
+        "data": {
+          "2023-06-15T20:15:31.034+00:00": [
+            {
+              "className": "com.hayden.reflectable.media.MediaData$WebMediaDataIndiv",
+              "enumClzz": "com.hayden.shared.models.data.WebData",
+              "values": [
+                {
+                  "buffers": null,
+                  "metadata": {
+                    "filePath": "/Users/hayde/IdeaProjects/drools/data/src/main/resources/data/multi_modal/files/google.com/google.com.e7c1666b-10c0-4e6b-82c0-fa0d9aa9af3f",
+                    "metadataPath": "/Users/hayde/IdeaProjects/drools/data/src/main/resources/data/multi_modal/metadata/google.com/google.com.e7c1666b-10c0-4e6b-82c0-fa0d9aa9af3f",
+                    "version": 1.0
+                  },
+                  "fileExtension": "TEXT",
+                  "mimeType": "text/html",
+                  "index": {
+                    "index": [],
+                    "version": 1.0
+                  }
+                }
+              ],
+              "date": 1686860131034,
+              "index": {
+                "index": [],
+                "version": 1.0
+              }
+            }
+          ]
+        }
+      },
+      "type": "com.hayden.reflectable.media.ReflectableMediaItem"
+    }
+  }
+}

@@ -9,5 +9,5 @@ class MediaItemConsumer:
         media_topic = str(InjectionContext.environment.get_property('media_topic'))
         self.consumer = kafka.KafkaConsumer(media_topic, bootstrap_servers=brokers)
 
-    def consume(self):
+    # def consume(self):
 
