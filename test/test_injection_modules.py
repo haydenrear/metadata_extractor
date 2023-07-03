@@ -1,7 +1,6 @@
 from unittest import TestCase
 
 from dotenv import load_dotenv
-from drools_py.classification_models.torch_classification import StringClassifier
 from drools_py.inject.injector_provider import InjectionContext
 
 from metadata_extractor.delegating_metadata_extractor import MultiStringClassifier
