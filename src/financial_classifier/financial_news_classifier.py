@@ -39,4 +39,3 @@ class FinanceClassifier(StringClassifier):
     def classify_item(self, item: str) -> Optional[str]:
         if self.econ.classify_item(item) == 'Economics':
             return self.financial_news.classify_item(item)
-        return None
