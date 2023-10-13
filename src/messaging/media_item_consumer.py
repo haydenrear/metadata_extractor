@@ -1,5 +1,5 @@
 import kafka
-from drools_py.inject.injector_provider import InjectionContext
+from python_di.inject.injector_provider import InjectionContext
 
 
 class MediaItemConsumer:

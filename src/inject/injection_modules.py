@@ -1,8 +1,8 @@
 import injector
 from drools_py.classification_models.classify_spam import SpamClassifier
 from drools_py.classification_models.torch_classification import StringClassifier
-from drools_py.env.init_env import import_load
-from drools_py.inject.injector_provider import InjectionContext
+from python_di.env.init_env import import_load
+from python_di.inject.injector_provider import InjectionContext
 from injector import Binder
 
 from metadata_extractor.delegating_metadata_extractor import MultiStringClassifier, DelegatingMetadataExtractor

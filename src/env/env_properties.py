@@ -1,10 +1,10 @@
 import os
 
-import drools_py.env.env_properties
+import python_di.env.env_properties
 import yaml
 
 
-class ClassifierEnvironment(drools_py.env.env_properties.YamlPropertiesFilesBasedEnvironment):
+class ClassifierEnvironment(python_di.env.env_properties.YamlPropertiesFilesBasedEnvironment):
 
     def load_props_inner(self, join):
         super().load_props_inner(join)
